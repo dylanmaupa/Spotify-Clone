@@ -1,0 +1,16 @@
+.card{
+    background: var(--card-sec-bg);
+}
+.card:hover{
+    background: var(--card-bg);
+    cursor: pointer;
+    /* box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.6); */
+}
+
+.play_btn{
+    display: none !important;
+}
+
+.card:hover .play_btn{
+    display: block !important;
+}
